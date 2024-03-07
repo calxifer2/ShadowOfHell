@@ -1,0 +1,487 @@
+fileFormatVersion: 2
+guid: 43cdf6263bbc90645bcce0a4570eca3d
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Largi_Atlas_0
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 410
+        width: 256
+        height: 571
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ef4b8dfe0159c944a7323c437eb6e51
+      internalID: 877919336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Largi_Atlas_1
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 751
+        width: 117
+        height: 249
+      alignment: 9
+      pivot: {x: 0.60160005, y: 0.0908007}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a94f7cdaf85be444b4105f4fd712271
+      internalID: -1163443397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Largi_Atlas_2
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 763
+        width: 100
+        height: 200
+      alignment: 9
+      pivot: {x: 0.5169812, y: 0.9160529}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b83dd8f206d38d4685a20dbb53101c3
+      internalID: 974520130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Largi_Atlas_3
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 774
+        width: 106
+        height: 211
+      alignment: 9
+      pivot: {x: 0.59612286, y: 0.87965745}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dfbe0939cd3e054fa44f50f037dda41
+      internalID: 88231135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Largi_Atlas_4
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 776
+        width: 173
+        height: 221
+      alignment: 9
+      pivot: {x: 0.54908, y: 0.06969276}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b353e8999a6e3c4792baa74b083b683
+      internalID: -1775108590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Largi_Atlas_5
+      rect:
+        serializedVersion: 2
+        x: 1222
+        y: 782
+        width: 143
+        height: 222
+      alignment: 9
+      pivot: {x: 0.52374995, y: 0.17872304}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8700dd83295c1294d9cd5b5392eb5e70
+      internalID: -1481885254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Largi_Atlas_6
+      rect:
+        serializedVersion: 2
+        x: 1430
+        y: 867
+        width: 384
+        height: 119
+      alignment: 9
+      pivot: {x: 0.057766277, y: 0.68551403}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b62351fa0825bd844bdc32e7200ec37d
+      internalID: -1359121879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Largi_Atlas_7
+      rect:
+        serializedVersion: 2
+        x: 1867
+        y: 794
+        width: 169
+        height: 219
+      alignment: 9
+      pivot: {x: 0.5401929, y: 0.06576301}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e484b86c4ff15b46b80972f08f57204
+      internalID: -163736909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Largi_Atlas_8
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 323
+        width: 186
+        height: 375
+      alignment: 9
+      pivot: {x: 0.6917291, y: 0.95737517}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10ef25fb3ccf5bd4392a82877b4cb0a1
+      internalID: -1299756778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Largi_Atlas_9
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 566
+        width: 74
+        height: 172
+      alignment: 9
+      pivot: {x: 0.5917919, y: 0.9442898}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 696c67d019384494a9bf892ae802b2c8
+      internalID: -1619884277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Largi_Atlas_10
+      rect:
+        serializedVersion: 2
+        x: 1311
+        y: 566
+        width: 73
+        height: 179
+      alignment: 9
+      pivot: {x: 0.56978744, y: 0.92691535}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 091928b4edddcc447977d2df14c89d84
+      internalID: 1245549548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Largi_Atlas_11
+      rect:
+        serializedVersion: 2
+        x: 1443
+        y: 695
+        width: 386
+        height: 124
+      alignment: 9
+      pivot: {x: 0.966338, y: 0.71911865}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7fbd3600015aca4a804f4c189bc311f
+      internalID: -1072586789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Largi_Atlas_12
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 341
+        width: 174
+        height: 347
+      alignment: 9
+      pivot: {x: 0.7635098, y: 0.9306611}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0381cfba1dac9ad45bdab4cf2c25860f
+      internalID: -659450886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Largi_Atlas_13
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 557
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74aa9f2dbabfe7f47a43c4e6bc1bea16
+      internalID: -367893472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Largi_Atlas_14
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 327
+        width: 122
+        height: 367
+      alignment: 9
+      pivot: {x: 0.48608, y: 0.07429916}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4f45c91871bb1f46b01aa8a4006f5eb
+      internalID: -638107811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Largi_Atlas_15
+      rect:
+        serializedVersion: 2
+        x: 1503
+        y: 18
+        width: 530
+        height: 595
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5097f06cf73119e4fb34107fff9c340a
+      internalID: -959270598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Largi_Atlas_6: -1359121879
+      Largi_Atlas_14: -638107811
+      Largi_Atlas_13: -367893472
+      Largi_Atlas_1: -1163443397
+      Largi_Atlas_0: 877919336
+      Largi_Atlas_2: 974520130
+      Largi_Atlas_7: -163736909
+      Largi_Atlas_4: -1775108590
+      Largi_Atlas_5: -1481885254
+      Largi_Atlas_9: -1619884277
+      Largi_Atlas_15: -959270598
+      Largi_Atlas_3: 88231135
+      Largi_Atlas_12: -659450886
+      Largi_Atlas_10: 1245549548
+      Largi_Atlas_11: -1072586789
+      Largi_Atlas_8: -1299756778
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
