@@ -45,14 +45,32 @@ public class Movements : MonoBehaviour
         caminar();
 
         // Movement for PC
-        MDerecha = (Input.GetAxis("Horizontal") > 0.1f);
-        MIzquierda = (Input.GetAxis("Horizontal") < -0.1f);
+        //MDerecha = (Input.GetAxis("Horizontal") > 0.1f);
+        //MIzquierda = (Input.GetAxis("Horizontal") < -0.1f);
 
         // Jumping
         if (Input.GetKeyDown(KeyCode.Space))
         {
             Jumping();
         }
+    }
+
+    public void MoverDerecha()
+    {
+        if (Time.timeScale == 0) return ;
+        MDerecha = true;
+    }
+
+    public void MoverIzquierda()
+    {
+        if (Time.timeScale == 0) return;
+        MIzquierda = true;
+    }
+
+    public void DejarMover()
+    {
+        MDerecha = false;
+        MIzquierda = false;
     }
 
     public void Jumping()
@@ -70,22 +88,5 @@ public class Movements : MonoBehaviour
     {
         EnPiso = true; 
     }
-
-    /*private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.CompareTag("pinchos"))
-        {
-            anim.SetBool("Die", true);
-            enabled = false;
-            Invoke("Reiniciar",3);
-        }
-    }
-
-    void Reiniciar()
-    {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-
-
-    }*/
 
 }

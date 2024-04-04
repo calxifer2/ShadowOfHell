@@ -7,14 +7,16 @@ public class Pinchos : MonoBehaviour
 {
 
     public Animator anim;
+    public Movements movimiento;
 
     private void OnCollisionEnter2D(Collision2D other)
     {
         if (other.collider.CompareTag("Player"))
         {
             anim.SetBool("Die", true);
+            //movimiento.DejarMover();
             enabled = false;
-            Invoke("Reiniciar", 3);
+            Invoke("Reiniciar", 2);
             Debug.Log("Pinchooos");
         }
     }
