@@ -14,7 +14,6 @@ public class Pinchos : MonoBehaviour
         if (other.collider.CompareTag("Player"))
         {
             anim.SetBool("Die", true);
-            //movimiento.DejarMover();
             enabled = false;
             Invoke("Reiniciar", 2);
             Debug.Log("Pinchooos");
