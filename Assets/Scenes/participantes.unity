@@ -412,8 +412,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "Realizado por:\n\n \xB0Mateo Arboleda\n \xB0Santiago Ochoa\n   \xB0Katherine
-    Ramos\n\xB0V\xEDctor Aveda\xF1o"
+  m_Text: "Realizado por:\n\n \xB0Mateo Arboleda\n\xB0V\xEDctor Aveda\xF1o\n \xB0Santiago
+    Ochoa\n   \xB0Katherine Ramos\n"
 --- !u!222 &718299898
 CanvasRenderer:
   m_ObjectHideFlags: 0
