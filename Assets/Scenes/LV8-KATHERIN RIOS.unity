@@ -1018,9 +1018,25 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 1654846434}
-          m_TargetAssemblyTypeName: Movements, Assembly-CSharp
+        - m_Target: {fileID: 1654846437}
+          m_TargetAssemblyTypeName: Movemets8, Assembly-CSharp
           m_MethodName: Jumping
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventID: 3
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1654846437}
+          m_TargetAssemblyTypeName: Movemets8, Assembly-CSharp
+          m_MethodName: DejarMover
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -1274,6 +1290,53 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 521398744}
   m_CullTransparentMesh: 1
+--- !u!1 &549925032
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 549925033}
+  - component: {fileID: 549925034}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &549925033
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 549925032}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 48.6801, y: 43.80152, z: -0.6312776}
+  m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &549925034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 549925032}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a98f1c0ea32d194382daff67dc73337, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  imgPausa: {fileID: 1162899516}
+  imgPlay: {fileID: 1701239748}
+  imgOscura: {fileID: 1502924038}
 --- !u!1 &684678893 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2184546803808942320, guid: 74198fa811e9b8345a7e02b26a5d8679, type: 3}
@@ -1491,8 +1554,8 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 1654846434}
-          m_TargetAssemblyTypeName: Movements, Assembly-CSharp
+        - m_Target: {fileID: 1654846437}
+          m_TargetAssemblyTypeName: Movemets8, Assembly-CSharp
           m_MethodName: MoverDerecha
           m_Mode: 1
           m_Arguments:
@@ -1507,8 +1570,8 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 1654846434}
-          m_TargetAssemblyTypeName: Movements, Assembly-CSharp
+        - m_Target: {fileID: 1654846437}
+          m_TargetAssemblyTypeName: Movemets8, Assembly-CSharp
           m_MethodName: DejarMover
           m_Mode: 1
           m_Arguments:
@@ -2032,8 +2095,8 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 1654846434}
-          m_TargetAssemblyTypeName: Movements, Assembly-CSharp
+        - m_Target: {fileID: 1654846437}
+          m_TargetAssemblyTypeName: Movemets8, Assembly-CSharp
           m_MethodName: MoverIzquierda
           m_Mode: 1
           m_Arguments:
@@ -2048,8 +2111,8 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 1654846434}
-          m_TargetAssemblyTypeName: Movements, Assembly-CSharp
+        - m_Target: {fileID: 1654846437}
+          m_TargetAssemblyTypeName: Movemets8, Assembly-CSharp
           m_MethodName: DejarMover
           m_Mode: 1
           m_Arguments:
@@ -3633,7 +3696,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1654846432}
-  - component: {fileID: 1654846434}
+  - component: {fileID: 1654846437}
   - component: {fileID: 1654846433}
   - component: {fileID: 1654846435}
   - component: {fileID: 1654846436}
@@ -3681,25 +3744,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &1654846434
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1654846430}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: efebdee744e5da84fa1cc11cdeb9afe9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  FuerzaDeJumping: 7
-  velocity: 5
-  MDerecha: 0
-  MIzquierda: 0
-  EnPiso: 1
-  graficos: {fileID: 1249822920}
-  anim: {fileID: 1249822921}
 --- !u!70 &1654846435
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -3732,6 +3776,25 @@ CircleCollider2D:
   m_Offset: {x: -0.02, y: -0.8817558}
   serializedVersion: 2
   m_Radius: 0.18695223
+--- !u!114 &1654846437
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1654846430}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 020de56697e019f4da34c7d1d7bff4de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FuerzaDeJumping: 7
+  velocity: 5
+  MDerecha: 0
+  MIzquierda: 0
+  EnPiso: 1
+  graficos: {fileID: 1249822920}
+  anim: {fileID: 1249822921}
 --- !u!1 &1658248334
 GameObject:
   m_ObjectHideFlags: 0

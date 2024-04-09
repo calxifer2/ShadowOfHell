@@ -3512,7 +3512,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   abierta: 0
-  velocidad: 7
+  velocidad: 10
   pAbierta: {fileID: 1865414620}
   pCerrada: {fileID: 1070842765}
   graficos: {fileID: 1563920201}
