@@ -906,8 +906,8 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 1654846434}
-          m_TargetAssemblyTypeName: Movements, Assembly-CSharp
+        - m_Target: {fileID: 1654846438}
+          m_TargetAssemblyTypeName: MovementsNivel12, Assembly-CSharp
           m_MethodName: Jumping
           m_Mode: 1
           m_Arguments:
@@ -1298,7 +1298,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 684678893}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 76316637b01dc264e8e633e79e3fb837, type: 3}
+  m_Script: {fileID: 11500000, guid: ec3ae187f7d3cba4c9394bee39d9f461, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   boton: {fileID: 684678896}
@@ -1490,8 +1490,8 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 1654846434}
-          m_TargetAssemblyTypeName: Movements, Assembly-CSharp
+        - m_Target: {fileID: 1654846438}
+          m_TargetAssemblyTypeName: MovementsNivel12, Assembly-CSharp
           m_MethodName: MoverDerecha
           m_Mode: 1
           m_Arguments:
@@ -1506,8 +1506,8 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 1654846434}
-          m_TargetAssemblyTypeName: Movements, Assembly-CSharp
+        - m_Target: {fileID: 1654846438}
+          m_TargetAssemblyTypeName: MovementsNivel12, Assembly-CSharp
           m_MethodName: DejarMover
           m_Mode: 1
           m_Arguments:
@@ -2031,8 +2031,8 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 1654846434}
-          m_TargetAssemblyTypeName: Movements, Assembly-CSharp
+        - m_Target: {fileID: 1654846438}
+          m_TargetAssemblyTypeName: MovementsNivel12, Assembly-CSharp
           m_MethodName: MoverIzquierda
           m_Mode: 1
           m_Arguments:
@@ -2047,8 +2047,8 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 1654846434}
-          m_TargetAssemblyTypeName: Movements, Assembly-CSharp
+        - m_Target: {fileID: 1654846438}
+          m_TargetAssemblyTypeName: MovementsNivel12, Assembly-CSharp
           m_MethodName: DejarMover
           m_Mode: 1
           m_Arguments:
@@ -3604,6 +3604,8 @@ GameObject:
   - component: {fileID: 1654846433}
   - component: {fileID: 1654846435}
   - component: {fileID: 1654846436}
+  - component: {fileID: 1654846438}
+  - component: {fileID: 1654846437}
   m_Layer: 0
   m_Name: personaje
   m_TagString: Player
@@ -3642,7 +3644,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: -1
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -3655,7 +3657,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1654846430}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: efebdee744e5da84fa1cc11cdeb9afe9, type: 3}
   m_Name: 
@@ -3699,6 +3701,38 @@ CircleCollider2D:
   m_Offset: {x: -0.02, y: -0.8817558}
   serializedVersion: 2
   m_Radius: 0.18695223
+--- !u!114 &1654846437
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1654846430}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e20b79ef0a9b5f45b699d27c39dcbdf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1654846438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1654846430}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e5efcbf0120d81498114213b02b10cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FuerzaDeJumping: 7
+  velocity: 5
+  MDerecha: 0
+  MIzquierda: 0
+  EnPiso: 1
+  graficos: {fileID: 1249822920}
+  anim: {fileID: 1249822921}
+  invertirGravedad: {fileID: 1654846437}
 --- !u!1 &1658248334
 GameObject:
   m_ObjectHideFlags: 0
@@ -3810,6 +3844,86 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.1151733, y: 1.0758395}
   m_EdgeRadius: 0
+--- !u!1 &1666949477
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1666949480}
+  - component: {fileID: 1666949479}
+  - component: {fileID: 1666949478}
+  m_Layer: 5
+  m_Name: Text (Legacy)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1666949478
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1666949477}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.9622642, g: 0.9622642, b: 0.9622642, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 41
+    m_FontStyle: 2
+    m_BestFit: 0
+    m_MinSize: 4
+    m_MaxSize: 41
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 12. El espacio es tu mundo
+--- !u!222 &1666949479
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1666949477}
+  m_CullTransparentMesh: 1
+--- !u!224 &1666949480
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1666949477}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2136925840}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -110.909, y: 138.42975}
+  m_SizeDelta: {x: 682.5, y: 54.5}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1701239748
 GameObject:
   m_ObjectHideFlags: 0
@@ -4316,6 +4430,7 @@ RectTransform:
   - {fileID: 504234492}
   - {fileID: 1502924039}
   - {fileID: 24742152}
+  - {fileID: 1666949480}
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

@@ -12,13 +12,17 @@ public class Btn_Nvl_0 : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.CompareTag("Player"))
+        if (collision.CompareTag("Player"))
         {
             boton.presionado = true;
             puerta.abierta = true;
         }
     }
 
+<<<<<<< Updated upstream
 }
 
 
+=======
+}
+>>>>>>> Stashed changes
