@@ -19,10 +19,4 @@ public class Btn_Nvl_0 : MonoBehaviour
         }
     }
 
-<<<<<<< Updated upstream
 }
-
-
-=======
-}
->>>>>>> Stashed changes
